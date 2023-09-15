@@ -1,0 +1,251 @@
+.maindiv{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(11, 11, 25, 0.858),rgb(48, 15, 48));
+}
+.formsection{
+    border: 0;
+    border-radius: 18px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 4px 4px rgba(11, 11, 25, 0.858);
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    width: 40vh;
+    height: auto;
+    color: white;
+    background-color: rgb(33 33 67 / 0%);
+    backdrop-filter: blur(15px);  
+}
+.namebox{
+    display: flex;
+}
+.name{
+    flex: 1;
+    width: 100%;
+}
+.textnamebox{
+    flex: 1;
+    width: 100%;
+}
+.emailbox{
+    display: flex;
+}
+.email{
+    flex: 1;
+    width: 100%;
+}
+.text-email-box{
+    flex: 1;
+    width: 100%;
+}
+.emailbox{
+    flex: 1;
+    width: 100%;
+}
+.messagebox{
+    display: flex;
+}
+.message{
+    flex: 1;
+    width: 100%;
+}
+.message-box{
+    flex: 1;
+    width: 100%;
+}
+.submitbox{
+    display: flex;
+}
+.submit-button{
+    flex: 1;
+    text-align: center;
+}
+.Uname{
+    width: 25vh;
+    background-color: rgba(0, 255, 255, 0.091);
+    backdrop-filter: blur(35px);
+    border: 0;
+    border-radius: 10px;
+    height: 5vh;
+    color: white;
+}
+.email-box{
+    width: 25vh;
+    background-color: rgb(0, 255, 255, 0.091);
+    backdrop-filter: blur(35px);
+    border: 0;
+    border-radius: 10px;
+    height: 5vh;
+    color:white
+}
+.message-box{
+    width: 25vh;
+    background-color: rgb(0, 255, 255, 0.091);
+    backdrop-filter: blur(35px);
+    border: 0;
+    border-radius: 10px;
+    height: 10vh;
+    color:white
+}
+.submitbtn{
+    border: 0;
+    border-radius: 18px;
+    height: 6vh;
+    width: 15vh;
+    background-color: rgba(74, 74, 164, 0.502);
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 4px 4px rgb(rgb(203, 193, 193));
+}
+.submitbtn:hover{
+    border: 0;
+    border-radius: 6px;
+    background-color: rgba(20, 20, 142, 0.648);
+    animation-name: submitbnt-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.submitbtn:not(hover){
+    animation-name: submitouthover;
+    animation-duration: 0.5s;
+
+}
+@keyframes submitbnt-animation {
+    from {
+        background-color: rgba(74, 74, 164, 0.502);
+        border-radius: 18px;
+    }
+    to{
+        background-color: rgba(20, 20, 142, 0.648);
+        border-radius: 6px;
+    }
+}
+@keyframes submitouthover {
+    from{
+        background-color: rgba(20, 20, 142, 0.648);
+        border-radius: 6px;
+    }
+    to{
+        background-color: rgba(74, 74, 164, 0.502);
+        border-radius: 18px;
+    }
+}
+.middlesector{
+    z-index: 5;
+}
+.animation-div{
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+@keyframes viewanim {
+    0%{
+        opacity: 0;
+        width: 2vh;
+        height: 5vh;
+    }
+    10%{
+        opacity: 0.5;
+        width: 8vh;
+        height: 6vh;
+    }
+    20%{
+        opacity: 0.6;
+        width: 13vh;
+        height: 17vh;
+    }
+    50%{
+        opacity: 0.8;
+        width: 17vh;
+        height: 19vh;
+    }
+    75%{
+        opacity: 1;
+        width: 18vh;
+        height: 10v;
+    }
+    100%{
+        opacity: 1;
+        height: 0;
+        width: 0;
+    }
+}
+.line1{
+    position: absolute;
+    z-index: 6;
+    width: 10vh;
+    height: 10vh;
+    background-color: rgba(69, 41, 129, 0.553);
+    border: 0;
+    border-radius: 50px;
+    opacity: 0;
+    animation: viewanim 9s linear infinite; 
+    animation-delay: 0s;
+}
+.line2{
+    position: absolute;
+    z-index: 5;
+    width: 10vh;
+    height: 10vh;
+    background-color: rgba(85, 13, 37, 0.808);
+    border: 0;
+    border-radius: 50px;
+    opacity: 0;
+    animation: viewanim 9s linear infinite; 
+    animation-delay: 9s;
+}
+.line1{
+    position: absolute;
+    z-index: 4;
+    width: 10vh;
+    height: 10vh;
+    background-color: rgba(69, 41, 129, 0.553);
+    border: 0;
+    border-radius: 50px;
+    opacity: 0;
+    animation: viewanim 18s linear infinite; 
+    animation-delay: 7s;
+}
+.line3{
+    position: absolute;
+    z-index: 3;
+    width: 10vh;
+    height: 10vh;
+    background-color: rgba(52, 69, 31, 0.815);
+    border: 0;
+    border-radius: 50px;
+    opacity: 0;
+    animation: viewanim 27s linear infinite; 
+    animation-delay: 10s;
+}.line4{
+    position: absolute;
+    z-index: 2;
+    width: 10vh;
+    height: 10vh;
+    background-color: rgba(175, 79, 175, 0.553);
+    border: 0;
+    border-radius: 50px;
+    opacity: 0;
+    animation: viewanim 36s linear infinite; 
+    animation-delay: 12s;
+}.line5{
+    position: absolute;
+    z-index: 1;
+    width: 10vh;
+    height: 10vh;
+    background-color: rgba(160, 202, 75, 0.553);
+    border: 0;
+    border-radius: 50px;
+    opacity: 0;
+    animation: viewanim 45s linear infinite; 
+    animation-delay: 15;
+}

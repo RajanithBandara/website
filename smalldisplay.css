@@ -1,0 +1,46 @@
+@media screen and (max-width:768px) {
+    .body{
+        padding-left:3%;
+        padding-right:3%;
+        background-image:url('');
+        background-color:#370c4d;
+    }
+    #contentofmine{
+        display: block;
+    }
+    #content1ofmine{
+        max-width: 100%;
+    }
+    #content2ofmine{
+        max-width: 100%;
+    }
+    #mypopup-detailsdiv{
+        width: 100%;
+    }
+    .img-circle{
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: -1; 
+    }
+    #row1-1div{
+        display: block;
+    }
+    #div1-row1{
+        padding: 2.5%;
+        color:white;
+    }
+    #div2-row1{
+        padding: 2.5%;
+    }
+    .img-circle{
+        box-shadow: none;
+    }
+    #content1ofminesec,#content2ofminesec
+    {
+        color:#ffffffb5;
+    }
+    .details{
+        color:aliceblue;
+    }
+}
