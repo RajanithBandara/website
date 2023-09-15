@@ -21,6 +21,7 @@
     color: white;
     background-color: rgba(224, 224, 234, 0.112);
     backdrop-filter: blur(15px);  
+    font-family: Arial, Helvetica, sans-serif;
 }
 .namebox{
     display: flex;
