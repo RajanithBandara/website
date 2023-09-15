@@ -19,7 +19,7 @@
     width: 40vh;
     height: auto;
     color: white;
-    background-color: rgb(33 33 67 / 0%);
+    background-color: rgba(224, 224, 234, 0.112);
     backdrop-filter: blur(15px);  
 }
 .namebox{
